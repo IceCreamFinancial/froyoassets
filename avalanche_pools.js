@@ -1,5 +1,118 @@
 export const avalanchePools = [
   {
+    id: 'sundae-fudge-dai',
+    name: 'FUDGE-DAI LP',
+    token: 'FUDGE-DAI LP',
+    tokenDescription: 'Sundae Finance',
+    tokenAddress: '0xE367414f29E247b2D92edd610aA6Dd5A7FD631BA',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'froyoSundaeFUDGE-DAI',
+    earnedTokenAddress: '0x8c7589278581BF2CDbb31e895a06235cc5c1d9C7',
+    earnContractAddress: '0x8c7589278581BF2CDbb31e895a06235cc5c1d9C7',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'sundae-fudge-dai',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Other',
+    assets: ['FUDGE', 'DAI'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/0xD9FF12172803c072a36785DeFea1Aa981A6A0C18',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0xD9FF12172803c072a36785DeFea1Aa981A6A0C18#/',
+    family: 'SUNDAE',
+  },
+
+  {
+    id: 'grape-grape-mim',
+    name: 'GRAPE-MIM LP',
+    token: 'GRAPE-MIM LP',
+    tokenDescription: 'Grape Finance',
+    tokenAddress: '0xb382247667fe8CA5327cA1Fa4835AE77A9907Bc8',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooGrapeGRAPE-MIM',
+    earnedTokenAddress: '0x9b03eF3896edea1cC1Ee19b8Fed35cA82843Aed4',
+    earnContractAddress: '0x9b03eF3896edea1cC1Ee19b8Fed35cA82843Aed4',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'grape-grape-mim',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Other',
+    assets: ['GRAPE', 'MIM'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0x130966628846bfd36ff31a822705796e8cb8c18d/0x5541d83efad1f281571b343977648b75d95cdac2',
+    buyTokenUrl:
+      'https://www.traderjoexyz.com/trade?outputCurrency=0x5541D83EFaD1f281571B343977648B75d95cdAC2',
+    family: 'GRAPE',
+  },
+
+  {
+    id: 'grape-wine-mim',
+    name: 'WINE-MIM LP',
+    token: 'WINE-MIM LP',
+    tokenDescription: 'Grape Finance',
+    tokenAddress: '0x00cB5b42684DA62909665d8151fF80D1567722c3',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooGrapeWINE-MIM',
+    earnedTokenAddress: '0x0421AE152e3967361a54396486C970257c14E096',
+    earnContractAddress: '0x0421AE152e3967361a54396486C970257c14E096',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'grape-wine-mim',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Other',
+    assets: ['WINE', 'MIM'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0x130966628846bfd36ff31a822705796e8cb8c18d/0xC55036B5348CfB45a932481744645985010d3A44',
+    buyTokenUrl:
+      'https://www.traderjoexyz.com/trade?outputCurrency=0xC55036B5348CfB45a932481744645985010d3A44',
+    family: 'GRAPE',
+  },
+
+
+
+
+
+
+/*   {
     id: 'FUDGE-DAI',
     name: 'FUDGE-DAI LP',
     token: 'FUDGE-DAI LP',
@@ -8,8 +121,8 @@ export const avalanchePools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'FUDGE-DAI-FROYO',
-    earnedTokenAddress: '0x94E85B8E050F3F281CB9597cc0144F1F7AF1fe9B',
-    earnContractAddress: '0x94E85B8E050F3F281CB9597cc0144F1F7AF1fe9B',
+    earnedTokenAddress: '0xcaE3C39da940EF27C77178cdD6873C1b71f46dF4',
+    earnContractAddress: '0xcaE3C39da940EF27C77178cdD6873C1b71f46dF4',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
@@ -26,7 +139,7 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0xD9FF12172803c072a36785DeFea1Aa981A6A0C18#/',
     family: 'SUNDAE',
-  },
+  }, */
 
   {
     id: 'STRAW-WAVAX',
@@ -80,7 +193,8 @@ export const avalanchePools = [
     stratType: 'StratLP',
     addLiquidityUrl:
       'https://traderjoexyz.com/pool/AVAX/0xAE21d31a6494829a9E4B2B291F4984AAE8121757',
-    buyTokenUrl: 'https://traderjoexyz.com/trade?outputCurrency=0xAE21d31a6494829a9E4B2B291F4984AAE8121757#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0xAE21d31a6494829a9E4B2B291F4984AAE8121757#/',
     family: 'ICECREAM',
   },
 
@@ -108,7 +222,8 @@ export const avalanchePools = [
     stratType: 'StratLP',
     addLiquidityUrl:
       'https://traderjoexyz.com/pool/0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7/AVAX',
-    buyTokenUrl: 'https://traderjoexyz.com/trade?outputCurrency=0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7#/',
     family: 'ICECREAM',
   },
 
@@ -138,7 +253,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7/0xAE21d31a6494829a9E4B2B291F4984AAE8121757',
     family: 'ICECREAM',
   },
-  {
+  /*   {
     id: 'ARGOS-JOE',
     name: 'ARGOS-JOE LP',
     token: 'ARGOS-JOE LP',
@@ -193,6 +308,5 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0xe9067be19c824d7ad82e35333152EB0c593AB454#/',
     family: 'ARGOS',
-  },
-  
+  }, */
 ];
