@@ -33,6 +33,7 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0xD9FF12172803c072a36785DeFea1Aa981A6A0C18#/',
     family: 'SUNDAE',
+    createdAt: 1644600000,
   },
 
   {
@@ -69,6 +70,7 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x5541D83EFaD1f281571B343977648B75d95cdAC2',
     family: 'GRAPE',
+    createdAt: 1644600000,
   },
 
   {
@@ -105,6 +107,7 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xC55036B5348CfB45a932481744645985010d3A44',
     family: 'GRAPE',
+    createdAt: 1644600000,
   },
 
   {
@@ -133,6 +136,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/0xD9FF12172803c072a36785DeFea1Aa981A6A0C18',
     buyTokenUrl: 'https://traderjoexyz.com/pool/AVAX/0xf8D0C6c3ddC03F43A0687847f2b34bfd6941C2A2',
     family: 'SUNDAE',
+    createdAt: 1644600000,
   },
 
   {
@@ -162,6 +166,7 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0xAE21d31a6494829a9E4B2B291F4984AAE8121757#/',
     family: 'ICECREAM',
+    createdAt: 1644600000,
   },
 
   {
@@ -191,6 +196,7 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7#/',
     family: 'ICECREAM',
+    createdAt: 1644600000,
   },
 
   {
@@ -218,6 +224,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://traderjoexyz.com/pool/0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7/0xAE21d31a6494829a9E4B2B291F4984AAE8121757',
     family: 'ICECREAM',
+    createdAt: 1644600000,
   },
   {
     id: 'sundae-fudge',
@@ -239,12 +246,13 @@ export const avalanchePools = [
     depositsPaused: false,
     status: 'active',
     platform: 'TraderJoe',
-    assets: ['FUDGE'],
+    assets: ['FUDGE','DAI'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'SingleStake',
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0xD9FF12172803c072a36785DeFea1Aa981A6A0C18#/',
     family: 'SUNDAE',
+    createdAt: 1644600000,
   },
   {
     id: 'icecream-cream',
@@ -266,11 +274,12 @@ export const avalanchePools = [
     depositsPaused: false,
     status: 'active',
     platform: 'TraderJoe',
-    assets: ['CREAM'],
+    assets: ['CREAM','AVAX'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'SingleStake',
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0xAE21d31a6494829a9E4B2B291F4984AAE8121757#/',
     family: 'ICECREAM',
+    createdAt: 1644600000,
   },
 ];
