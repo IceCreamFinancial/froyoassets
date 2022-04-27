@@ -1,8 +1,8 @@
 export const avalanchePools = [
   {
     id: 'sundae-fudge-dai',
-    name: 'FUDGE-DAI LP',
-    token: 'FUDGE-DAI LP',
+    name: 'FUDGE-DAI',
+    token: 'FUDGE-DAI',
     tokenDescription: 'Sundae Finance',
     tokenAddress: '0xE367414f29E247b2D92edd610aA6Dd5A7FD631BA',
     tokenDecimals: 18,
@@ -37,8 +37,8 @@ export const avalanchePools = [
 
   {
     id: 'grape-grape-mim',
-    name: 'GRAPE-MIM LP',
-    token: 'GRAPE-MIM LP',
+    name: 'GRAPE-MIM',
+    token: 'GRAPE-MIM',
     tokenDescription: 'Grape Finance',
     tokenAddress: '0xb382247667fe8CA5327cA1Fa4835AE77A9907Bc8',
     tokenDecimals: 18,
@@ -73,8 +73,8 @@ export const avalanchePools = [
 
   {
     id: 'grape-wine-mim',
-    name: 'WINE-MIM LP',
-    token: 'WINE-MIM LP',
+    name: 'WINE-MIM',
+    token: 'WINE-MIM',
     tokenDescription: 'Grape Finance',
     tokenAddress: '0x00cB5b42684DA62909665d8151fF80D1567722c3',
     tokenDecimals: 18,
@@ -109,8 +109,8 @@ export const avalanchePools = [
 
   {
     id: 'sundae-straw-avax',
-    name: 'STRAW-WAVAX LP',
-    token: 'STRAW-WAVAX LP',
+    name: 'STRAW-WAVAX',
+    token: 'STRAW-WAVAX',
     tokenDescription: 'Sundae Finance',
     tokenAddress: '0x5eeF38855090ccc49A1b7391F4C7B9efbDFE1456',
     tokenDecimals: 18,
@@ -137,8 +137,8 @@ export const avalanchePools = [
 
   {
     id: 'icecream-cream-avax',
-    name: 'CREAM-WAVAX LP',
-    token: 'CREAM-WAVAX LP',
+    name: 'CREAM-WAVAX',
+    token: 'CREAM-WAVAX',
     tokenDescription: 'IceCream Finance',
     tokenAddress: '0x00C87ce7188F7652d0C0940274cEC5db62f1e825',
     tokenDecimals: 18,
@@ -154,7 +154,7 @@ export const avalanchePools = [
     depositsPaused: false,
     status: 'active',
     platform: 'TraderJoe',
-    assets: ['CREAM', 'AVAX'],
+    assets: ['CREAM','AVAX'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
     addLiquidityUrl:
@@ -166,8 +166,8 @@ export const avalanchePools = [
 
   {
     id: 'icecream-cshare-avax',
-    name: 'CSHARE-WAVAX LP',
-    token: 'CSHARE-WAVAX LP',
+    name: 'CSHARE-WAVAX',
+    token: 'CSHARE-WAVAX',
     tokenDescription: 'IceCream Finance',
     tokenAddress: '0xbD61dFAd83Fc19960476abca1324FfD798234c66',
     tokenDecimals: 18,
@@ -195,8 +195,8 @@ export const avalanchePools = [
 
   {
     id: 'icecream-cream-cshare',
-    name: 'CREAM-CSHARE LP',
-    token: 'CREAM-CSHARE LP',
+    name: 'CREAM-CSHARE',
+    token: 'CREAM-CSHARE',
     tokenDescription: 'IceCream Finance',
     tokenAddress: '0xeC1e129BbAac3DdE156643F5d41FC9b5a59033a7',
     tokenDecimals: 18,
@@ -219,62 +219,6 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7/0xAE21d31a6494829a9E4B2B291F4984AAE8121757',
     family: 'ICECREAM',
   },
-  /*   {
-    id: 'ARGOS-JOE',
-    name: 'ARGOS-JOE LP',
-    token: 'ARGOS-JOE LP',
-    tokenDescription: 'Argos Finance',
-    tokenAddress: '0xBB8F2271FA9dB1f514Ce0f072d82A5daC80313ad',
-    tokenDecimals: 18,
-    tokenDescriptionUrl: '#',
-    earnedToken: 'ARGOS-JOE-FROYO',
-    earnedTokenAddress: '0x94E85B8E050F3F281CB9597cc0144F1F7AF1fe9B',
-    earnContractAddress: '0x94E85B8E050F3F281CB9597cc0144F1F7AF1fe9B',
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'lps',
-    oracleId: 'ARGOS-JOE',
-    oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
-    platform: 'TraderJoe',
-    assets: ['ARGOS', 'JOE'],
-    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
-    stratType: 'StratLP',
-    addLiquidityUrl:
-      'https://traderjoexyz.com/pool/0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd/0x8F4b642440381833D4daea9aC7b0B8C9aBC9a600#/',
-    buyTokenUrl:
-      'https://traderjoexyz.com/trade?outputCurrency=0x8F4b642440381833D4daea9aC7b0B8C9aBC9a600#/',
-    family: 'ARGOS',
-  },
-  {
-    id: 'ASHARE-JOE',
-    name: 'ASHARE-JOE LP',
-    token: 'ASHARE-JOE LP',
-    tokenDescription: 'Argos Finance',
-    tokenAddress: '0xBB8F2271FA9dB1f514Ce0f072d82A5daC80313ad',
-    tokenDecimals: 18,
-    tokenDescriptionUrl: '#',
-    earnedToken: 'ASHARE-JOE-FROYO',
-    earnedTokenAddress: '0x94E85B8E050F3F281CB9597cc0144F1F7AF1fe9B',
-    earnContractAddress: '0x94E85B8E050F3F281CB9597cc0144F1F7AF1fe9B',
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'lps',
-    oracleId: 'ASHARE-JOE',
-    oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
-    platform: 'TraderJoe',
-    assets: ['ASHARE', 'JOE'],
-    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
-    stratType: 'StratLP',
-    addLiquidityUrl:
-      'https://traderjoexyz.com/pool/0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd/0xe9067be19c824d7ad82e35333152EB0c593AB454#/',
-    buyTokenUrl:
-      'https://traderjoexyz.com/trade?outputCurrency=0xe9067be19c824d7ad82e35333152EB0c593AB454#/',
-    family: 'ARGOS',
-  }, */
   {
     id: 'sundae-fudge',
     logo: 'single-assets/FUDGE.png',
@@ -295,7 +239,7 @@ export const avalanchePools = [
     depositsPaused: false,
     status: 'active',
     platform: 'TraderJoe',
-    assets: ['FUDGE', 'STRAW'],
+    assets: ['FUDGE'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'SingleStake',
     buyTokenUrl:
