@@ -1,8 +1,8 @@
 export const avalanchePools = [
   {
     id: 'sundae-fudge-dai',
-    name: 'FUDGE-DAI',
-    token: 'FUDGE-DAI',
+    name: 'FUDGE-DAI LP',
+    token: 'FUDGE-DAI LP',
     tokenDescription: 'Sundae Finance',
     tokenAddress: '0xE367414f29E247b2D92edd610aA6Dd5A7FD631BA',
     tokenDecimals: 18,
@@ -38,8 +38,8 @@ export const avalanchePools = [
 
   {
     id: 'grape-grape-mim',
-    name: 'GRAPE-MIM',
-    token: 'GRAPE-MIM',
+    name: 'GRAPE-MIM LP',
+    token: 'GRAPE-MIM LP',
     tokenDescription: 'Grape Finance',
     tokenAddress: '0xb382247667fe8CA5327cA1Fa4835AE77A9907Bc8',
     tokenDecimals: 18,
@@ -112,8 +112,8 @@ export const avalanchePools = [
 
   {
     id: 'sundae-straw-avax',
-    name: 'STRAW-WAVAX',
-    token: 'STRAW-WAVAX',
+    name: 'STRAW-WAVAX LP',
+    token: 'STRAW-WAVAX LP',
     tokenDescription: 'Sundae Finance',
     tokenAddress: '0x5eeF38855090ccc49A1b7391F4C7B9efbDFE1456',
     tokenDecimals: 18,
@@ -128,7 +128,7 @@ export const avalanchePools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'TraderJoe',
+    platform: 'Other',
     assets: ['STRAW', 'AVAX'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
@@ -142,7 +142,7 @@ export const avalanchePools = [
   {
     id: 'icecream-cream-avax',
     name: 'CREAM-WAVAX',
-    token: 'CREAM-WAVAX',
+    token: 'CREAM-WAVAX LP',
     tokenDescription: 'IceCream Finance',
     tokenAddress: '0x00C87ce7188F7652d0C0940274cEC5db62f1e825',
     tokenDecimals: 18,
@@ -157,7 +157,7 @@ export const avalanchePools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'TraderJoe',
+    platform: 'Other',
     assets: ['CREAM','AVAX'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
@@ -171,8 +171,8 @@ export const avalanchePools = [
 
   {
     id: 'icecream-cshare-avax',
-    name: 'CSHARE-WAVAX',
-    token: 'CSHARE-WAVAX',
+    name: 'CSHARE-WAVAX LP',
+    token: 'CSHARE-WAVAX LP',
     tokenDescription: 'IceCream Finance',
     tokenAddress: '0xbD61dFAd83Fc19960476abca1324FfD798234c66',
     tokenDecimals: 18,
@@ -187,7 +187,7 @@ export const avalanchePools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'TraderJoe',
+    platform: 'Other',
     assets: ['CSHARE', 'AVAX'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
@@ -201,7 +201,7 @@ export const avalanchePools = [
 
   {
     id: 'icecream-cream-cshare',
-    name: 'CREAM-CSHARE',
+    name: 'CREAM-CSHARE LP',
     token: 'CREAM-CSHARE',
     tokenDescription: 'IceCream Finance',
     tokenAddress: '0xeC1e129BbAac3DdE156643F5d41FC9b5a59033a7',
@@ -217,7 +217,7 @@ export const avalanchePools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'TraderJoe',
+    platform: 'Other',
     assets: ['CREAM', 'CSHARE'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
@@ -245,7 +245,7 @@ export const avalanchePools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'TraderJoe',
+    platform: 'Other',
     assets: ['FUDGE','DAI'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'SingleStake',
@@ -273,7 +273,7 @@ export const avalanchePools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'TraderJoe',
+    platform: 'Other',
     assets: ['CREAM','AVAX'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'SingleStake',
