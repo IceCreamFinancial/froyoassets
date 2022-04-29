@@ -5788,4 +5788,3 @@ export const avalanchePools = [
     createdAt: 1615742387,
   },
 ];
-];
