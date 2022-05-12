@@ -1,4 +1,33 @@
 export const avalanchePools = [
+   {
+    id: 'zombie-zombie-avax',
+    name: 'ZOMBIE-AVAX',
+    token: 'ZOMBIE-AVAX',
+    tokenDescription: 'Grave Finance',
+    tokenAddress: '0x9CE2f9fbF653Be9796346E8896655A6392fe3769',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'froyograveZOMBIEAVAX',
+    earnedTokenAddress: '0x4B4bF307D4Dc98D4873d59C6599cdc2aaC0E940d',
+    earnContractAddress: '0x4B4bF307D4Dc98D4873d59C6599cdc2aaC0E940d',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'zombie-zombie-avax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Other',
+    assets: ['ZOMBIE', 'AVAX'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7/0xAE21d31a6494829a9E4B2B291F4984AAE8121757',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0xAE21d31a6494829a9E4B2B291F4984AAE8121757#/',
+    family: 'GRAVE',
+    createdAt: 1650758400,
+  },
     {
     id: 'zombie-zombie',
     logo: 'single-assets/zombie.svg',
