@@ -70,7 +70,7 @@ export const cronosPools = [
       'https://vvs.finance/add/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03/0x00D7699b71290094CcB1a5884cD835bD65a78c17',
     createdAt: 1650020388,
   },
-      {
+   {
         id: 'toxic-deer-usdc',
         name: 'DEER-USDC',
         token: 'DEER-USDC',
@@ -79,8 +79,8 @@ export const cronosPools = [
         tokenDecimals: 18,
         tokenDescriptionUrl: '#',
         earnedToken: 'froyotoxicDEER-USDC',
-        earnedTokenAddress: '0x7Df4E440692B557565b8757299B2D5A9dEb9D5A8',
-        earnContractAddress: '0x7Df4E440692B557565b8757299B2D5A9dEb9D5A8',
+        earnedTokenAddress: '0xAE21d31a6494829a9E4B2B291F4984AAE8121757',
+        earnContractAddress: '0xAE21d31a6494829a9E4B2B291F4984AAE8121757',
         pricePerFullShare: 1,
         tvl: 0,
         oracle: 'lps',
